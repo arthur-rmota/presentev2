@@ -1,0 +1,35 @@
+/* Estilo da seção "Onde começou" */
+.about__body {
+    text-align: center;
+    padding: 20px;
+}
+
+.about__body__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about__image {
+    width: 400px;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.about__image:hover {
+    opacity: 92%;
+}
+
+/* Responsividade para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .about__image {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about__image {
+        width: 90%;
+    }
+}

@@ -90,8 +90,8 @@ body {
 .rodape {
     color: var(--cor-ternaria);
     background-color: #669ab0;
-    margin-top: 90px;
-    height: 60px;
+    margin-top: 60px;
+    height: 30px;
     text-align: center;
 }
 
